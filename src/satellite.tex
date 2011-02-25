@@ -1,0 +1,47 @@
+\section{Introduction}
+
+    à partir d'un jeu de donnée fourni par the World Bank Group en 2007, nous avons éssayer de déterminer certaines corrélations et de faire apparaitre des liens parmis ces données.
+    Les données contiennent des informations concernant 48 atributs sur 209 pays.
+    Cependant certaines données sont manquantes, la première étape auras donc été de trier les données pour ne récupérer que des données valide.
+    Il aurait peut être interressant d'essayer de retrouver certaines données manquantes, mais nous ne sommes pas partis dans cette direction.
+    
+\section{Tri des données}
+    Nous savions que pour chaque étude, il faudrais éliminer un certains nombre d'attributs et un certains nombre de pays pour lesquelles les données manquent.
+    Pour cela, nous avons mis en place une chaîne de selection qui permet de trier précisément, par selection, les attributs puis les pays à inclure dans l'étude. Une autre solution aurait été de trier uniquement les attributs interessant, puis supprimer tous les pays pour lesquelles des données manquent, mais afin de vérifier les pays enlevé, la première solution à été préféré.
+    Un accent à été mis sur la visualisation des données manquantes. Grâce à des selecteurs, nous avons mis en place une chaîne permettant de connaître précisement le nombre de pays pour lesquelles manque un attribut, et le nombre d'attributs qui manquent à un pays.
+    Grâce à ces selecteurs, nous faisions les tris necessaires afin d'obtenir uniquement un ensemble de données sans données manquantes.
+        
+\section{Visualisation, corrélation, choix des dimensions, }
+
+    Nous avons fais plusieurs comparaison, afin d'essayer d'établir des corrélation avec le pourcentage d'utilisation d'internet.
+    \begin{itemize}
+        \item La première comparaison à été faite avec le GDP et le GNI.
+        \item La seconde comparaison à été faite avec le pourcentage de souscription à un forfait mobile.
+        \item La troisiéme comparaison à été faite avec le temps requis pour démarrer une entreprise.
+    \end{itemize}
+
+    \subsection{Normalisation}
+        Afin d'avoir des distances significatives, pour établir des cluster cohérent, les données sont normalisé.
+        Si la normalisation n'est pas faite un des attributs à un domaine bien plus grand que l'autre, ce qui en résulte sur des clusters qui semblent ne pas dépendre de l'attributs qui à le domaine le plus grand.
+        En effet la distance etant bien plus grand sur une dimension que sur l'autre, le nuage de point peut être imaginé comme une longue bandelette, et Knime découpe les cluster selon une seule dimension.
+        La normalisation permet donc, sans modifier la répartition des points, d'avoir des calculs de distance plus efficaces, et donc des clusters cohérents.
+        
+    \subsection{Echelle logarithmique}
+        Dans le cas du GDP et du GNI, les données sont réparties de telles façon qu'un grand nombre de pays se trouve avoir des valeurs trés faibles, tandis que peu ont un GDP ou un GNI trés fort.
+        La répartition selon cette dimension semblait logarithmique, nous avons donc essayer d'utiliser une echelle logarithmique.
+        Grâce à cette nouvelle répartition, le nuage de point était répartie de maniére trés homogéne.
+        
+    \subsection{Internet Utilisation - GDP\/GNI}
+        La comparaison entre GDP et GNI n'as pas permis de déceler de correlation évidente, à part des conclusion déjà connu concernant les êxtremes : un pays avec un trés faible GDP n'auras pas une forte utilisation d'internet, de même, un pays avec un fort GDP auras forcément une certaine utilisation d'internet.
+        En revanche, on peut établir des groupes de pays ayant des caractéristiques communes :
+            %TODO Graphe représentant les clusters.
+        
+        %TODO à finir
+        
+    \subsection{Internet UTilisation - Mobile subscription}
+        Cette c
+
+
+\section{Cluster non guidé}
+
+\section{Cluster guidé et prédiction appartenance}
