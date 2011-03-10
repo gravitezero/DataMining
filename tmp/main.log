@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.12.3)  17 JAN 2011 08:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.16)  10 MAR 2011 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,19 +13,20 @@ skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
 orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
 , estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
 rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -38,7 +39,7 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 
 (/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count87
+\babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@canadian = a dialect from \language\l@american 
@@ -52,8 +53,8 @@ Package babel Info: Making ; an active character on input line 121.
 Package babel Info: Making ! an active character on input line 122.
 Package babel Info: Making ? an active character on input line 123.
 \FB@Mht=\dimen104
-\std@mcc=\count88
-\dec@mcc=\count89
+\std@mcc=\count89
+\dec@mcc=\count90
 \parindentFFN=\dimen105
 
 *************************************
@@ -298,7 +299,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count90
+\Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
@@ -338,13 +339,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count91
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count92
-\leftroot@=\count93
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count94
-\DOTSCASE@=\count95
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -353,15 +354,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen110
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
 \tag@help=\toks18
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
 \andhelp@=\toks19
 \eqnshift@=\dimen111
 \alignsep@=\dimen112
@@ -520,6 +521,39 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
 )
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count106
+\calc@Cskip=\skip57
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@toc@title=\toks22
+\c@AM@survey=\count107
+\AM@templatesizebox=\box29
+)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
@@ -541,9 +575,9 @@ O)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
-\@linkdim=\dimen117
-\Hy@linkcounter=\count103
-\Hy@pagecounter=\count104
+\@linkdim=\dimen119
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -571,6 +605,7 @@ Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
 Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
 t (HO)
 ))
+Package hyperref Info: Option `hypertexnames' set `false' on input line 2864.
 Package hyperref Info: Hyper figures OFF on input line 2975.
 Package hyperref Info: Link nesting OFF on input line 2980.
 Package hyperref Info: Hyper index ON on input line 2983.
@@ -610,10 +645,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count105
-\Field@Width=\dimen118
-\Fld@charsize=\dimen119
-\Field@toks=\toks22
+\Fld@menulength=\count110
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+\Field@toks=\toks23
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -625,25 +660,27 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count106
-\c@Item=\count107
-\c@Hfootnote=\count108
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
 )
-*hyperref using default driver hpdftex*
+*hyperref using driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count109
+\Fld@listcount=\count114
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+
 (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
-\Gm@cnth=\count110
-\Gm@cntv=\count111
-\c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen120
-\Gm@wd@mp=\dimen121
-\Gm@odd@mp=\dimen122
-\Gm@even@mp=\dimen123
-\Gm@dimlist=\toks23
+\Gm@cnth=\count115
+\Gm@cntv=\count116
+\c@Gm@tempcnt=\count117
+\Gm@bindingoffset=\dimen122
+\Gm@wd@mp=\dimen123
+\Gm@odd@mp=\dimen124
+\Gm@even@mp=\dimen125
+\Gm@dimlist=\toks24
 
 (/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/psnfss/helvet.sty
@@ -658,8 +695,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 )
 (/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks24
-\verbatim@line=\toks25
+\every@verbatim=\toks25
+\verbatim@line=\toks26
 \verbatim@in@stream=\read1
 )
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
@@ -675,16 +712,16 @@ Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
 
 (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen124
-\extrarowheight=\dimen125
-\NC@list=\toks26
-\extratabsurround=\skip55
-\backup@length=\skip56
+\col@sep=\dimen126
+\extrarowheight=\dimen127
+\NC@list=\toks27
+\extratabsurround=\skip58
+\backup@length=\skip59
 )
-\everycr=\toks27
-\minrowclearance=\skip57
+\everycr=\toks28
+\minrowclearance=\skip60
 )
-\rownum=\count113
+\rownum=\count118
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -696,24 +733,24 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count114
-\lst@gtempboxa=\box28
-\lst@token=\toks28
-\lst@length=\count115
-\lst@currlwidth=\dimen126
-\lst@column=\count116
-\lst@pos=\count117
-\lst@lostspace=\dimen127
-\lst@width=\dimen128
-\lst@newlines=\count118
-\lst@lineno=\count119
-\lst@maxwidth=\dimen129
+\lst@mode=\count119
+\lst@gtempboxa=\box30
+\lst@token=\toks29
+\lst@length=\count120
+\lst@currlwidth=\dimen128
+\lst@column=\count121
+\lst@pos=\count122
+\lst@lostspace=\dimen129
+\lst@width=\dimen130
+\lst@newlines=\count123
+\lst@lineno=\count124
+\lst@maxwidth=\dimen131
 
 (/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count120
-\lst@skipnumbers=\count121
-\lst@framebox=\box29
+\c@lstnumber=\count125
+\lst@skipnumbers=\count126
+\lst@framebox=\box31
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -754,25 +791,26 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen130
-\scratchbox=\box30
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen131
-\MPnumerator=\count126
-\everyMPtoPDFconversion=\toks30
-)
-Package hyperref Info: Link coloring OFF on input line 9.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+\scratchcounter=\count127
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen133
+\MPnumerator=\count131
+\everyMPtoPDFconversion=\toks31
+) ABD: EveryShipout initializing macros
+Package hyperref Info: Link coloring ON on input line 9.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count127
+\c@section@level=\count132
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -781,7 +819,7 @@ LaTeX Info: Redefining \pageref on input line 9.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box33
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -824,51 +862,89 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-\c@lstlisting=\count128
+\c@lstlisting=\count133
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
+ [1
 
-(./satellite.tex
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 13.
+]
+(./satellite.tex <Tri.png, id=63, 646.66594pt x 387.69844pt>
+File: Tri.png Graphic file (type png)
+ <use Tri.png>
+<Loop.png, id=65, 456.20438pt x 127.22531pt>
+File: Loop.png Graphic file (type png)
+ <use Loop.png>
+<ColumnMissing.png, id=66, 321.45094pt x 124.96687pt>
+File: ColumnMissing.png Graphic file (type png)
+ <use ColumnMissing.png>
 
- (/usr/share/texmf-texlive/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 11--17
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.4521pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./Tri.png>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.4521pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./Loop.png> <./ColumnMissing.png>]
+<InternetGNI.png, id=83, 896.34875pt x 578.16pt>
+File: InternetGNI.png Graphic file (type png)
+ <use InternetGNI.png>
+<InternetLogGNI.png, id=84, 896.34875pt x 578.16pt>
+File: InternetLogGNI.png Graphic file (type png)
+ <use InternetLogGNI.png>
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
+
+ []
+
+<distanceGNI.png, id=85, 799.98875pt x 573.14125pt>
+File: distanceGNI.png Graphic file (type png)
+ <use distanceGNI.png>
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.4521pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- []
+[4 <./InternetGNI.png (PNG copy)> <./InternetLogGNI.png (PNG copy)>])
+AED: lastpage setting LastPage
 
-) AED: lastpage setting LastPage [2] (./main.aux) ) 
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.4521pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./distanceGNI.png (PNG copy)>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8527 strings out of 493848
- 118597 string characters out of 1152823
- 208576 words of memory out of 3000000
- 11634 multiletter control sequences out of 15000+50000
- 10874 words of font info for 39 fonts, out of 3000000 for 9000
+ 9234 strings out of 493848
+ 129289 string characters out of 1152823
+ 226201 words of memory out of 3000000
+ 12310 multiletter control sequences out of 15000+50000
+ 10969 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 43i,11n,43p,264b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-
-Output written on main.pdf (2 pages, 107345 bytes).
+ 43i,12n,43p,493b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+Output written on main.pdf (6 pages, 193213 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
